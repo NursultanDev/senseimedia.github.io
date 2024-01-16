@@ -1,0 +1,27 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.grad__button {
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 9px;
+    color: $white;
+    background: $gradient;
+    line-height: 26px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    padding: 14px 33px 14px 42px;
+}
+
+.title {
+    font-size: 38px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: $black;
+    font-weight: 700;
+
+}
