@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Manrope:300,regular,500,600,700,800); /*------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Manrope:300,regular,500,600,700,800);
+/*------------------------*/
 * {
   padding: 0;
   margin: 0;
@@ -795,6 +796,9 @@ body_lock {
   padding: 112px 0px 0px 0px;
   background-color: #F7F6FF;
 }
+.projects__swiper {
+  padding: 0px 0px 70px 0px;
+}
 .swiper {
   margin: 41px 0px 0px 0px;
 }
@@ -882,6 +886,16 @@ body_lock {
         flex-wrap: wrap;
   }
 }
+.swiper-button-prev::after {
+  font-size: 41px;
+  color: #D1D1D1;
+}
+
+.swiper-button-next::after {
+  font-size: 41px;
+  color: #D1D1D1;
+}
+
 .footer__top {
   padding: 52px 0px 60px 0px;
 }

@@ -1,15 +1,14 @@
+new Swiper('.projects__swiper', {
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
 
-"use strict"
+      loop: true,
+      speed: 800,
 
-
-const burgerButton = document.querySelector('.header__button');
-
-if (burgerButton) {
-    const menu = document.querySelector('.header__menu');
-    burgerButton.addEventListener("click", function (e) {
-        burgerButton.classList.toggle('_active');
-        menu.classList.toggle('_active');
-        document.body.classList.toggle('_lock');
-    });
-}
+      autoplay: {
+        delay: 5000,
+      },
+});
 

@@ -722,7 +722,9 @@ body {
 
     &__title {}
 
-    &__swiper {}
+    &__swiper {
+        padding: 0px 0px 70px 0px;
+    }
 
     &__slide {}
 }
@@ -823,9 +825,19 @@ body {
     }
 }
 
-.swiper-button-prev {}
+.swiper-button-prev {
+    &::after {
+        font-size: 41px;
+        color: #D1D1D1;
+    }
+}
 
-.swiper-button-next {}
+.swiper-button-next {
+    &::after {
+        font-size: 41px;
+        color: #D1D1D1;
+    }
+}
 
 //---------------------------------------------------------------------------------------------
 
